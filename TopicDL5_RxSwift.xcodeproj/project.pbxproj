@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4714220F264398D600C161EE /* PlayListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714220E264398D600C161EE /* PlayListTableViewCell.swift */; };
+		47142211264398E400C161EE /* PlayListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47142210264398E400C161EE /* PlayListTableViewCell.xib */; };
+		471422142643A25B00C161EE /* KingFisherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471422132643A25B00C161EE /* KingFisherWrapper.swift */; };
+		471422172643A44300C161EE /* PlayListTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471422162643A44300C161EE /* PlayListTableViewHeader.swift */; };
+		471422192643A46300C161EE /* PlayListTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 471422182643A46300C161EE /* PlayListTableViewHeader.xib */; };
+		4714221B2643A58B00C161EE /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714221A2643A58B00C161EE /* UITableView+Extension.swift */; };
 		4736F55F26417A1200BDD900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736F55E26417A1200BDD900 /* AppDelegate.swift */; };
 		4736F56126417A1200BDD900 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736F56026417A1200BDD900 /* SceneDelegate.swift */; };
-		4736F56326417A1200BDD900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736F56226417A1200BDD900 /* ViewController.swift */; };
+		4736F56326417A1200BDD900 /* PlayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736F56226417A1200BDD900 /* PlayListViewController.swift */; };
 		4736F56626417A1200BDD900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4736F56426417A1200BDD900 /* Main.storyboard */; };
 		4736F56826417A1400BDD900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4736F56726417A1400BDD900 /* Assets.xcassets */; };
 		4736F56B26417A1400BDD900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4736F56926417A1400BDD900 /* LaunchScreen.storyboard */; };
+		47AA3F60264252A200FF53F4 /* PlayListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA3F5F264252A200FF53F4 /* PlayListView.swift */; };
+		47AA3F63264260E500FF53F4 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA3F62264260E500FF53F4 /* Object.swift */; };
+		47AA3F6526426A8D00FF53F4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA3F6426426A8D00FF53F4 /* String+Extension.swift */; };
+		47AA3F6726426C9500FF53F4 /* KKBoxProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA3F6626426C9500FF53F4 /* KKBoxProviderManager.swift */; };
+		9ED84C770309B0F706BA0E56 /* Pods_TopicDL5_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4214819A583DA4F202F715 /* Pods_TopicDL5_RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C4214819A583DA4F202F715 /* Pods_TopicDL5_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopicDL5_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		294A43117331267FF64476C7 /* Pods-TopicDL5_RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopicDL5_RxSwift.release.xcconfig"; path = "Target Support Files/Pods-TopicDL5_RxSwift/Pods-TopicDL5_RxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		4714220E264398D600C161EE /* PlayListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListTableViewCell.swift; sourceTree = "<group>"; };
+		47142210264398E400C161EE /* PlayListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayListTableViewCell.xib; sourceTree = "<group>"; };
+		471422132643A25B00C161EE /* KingFisherWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingFisherWrapper.swift; sourceTree = "<group>"; };
+		471422162643A44300C161EE /* PlayListTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListTableViewHeader.swift; sourceTree = "<group>"; };
+		471422182643A46300C161EE /* PlayListTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayListTableViewHeader.xib; sourceTree = "<group>"; };
+		4714221A2643A58B00C161EE /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		4736F55B26417A1200BDD900 /* TopicDL5_RxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopicDL5_RxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4736F55E26417A1200BDD900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4736F56026417A1200BDD900 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4736F56226417A1200BDD900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4736F56226417A1200BDD900 /* PlayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListViewController.swift; sourceTree = "<group>"; };
 		4736F56526417A1200BDD900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4736F56726417A1400BDD900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4736F56A26417A1400BDD900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4736F56C26417A1400BDD900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47AA3F5F264252A200FF53F4 /* PlayListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListView.swift; sourceTree = "<group>"; };
+		47AA3F62264260E500FF53F4 /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		47AA3F6426426A8D00FF53F4 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		47AA3F6626426C9500FF53F4 /* KKBoxProviderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKBoxProviderManager.swift; sourceTree = "<group>"; };
+		5C0F16359E99AEB8492000BA /* Pods-TopicDL5_RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopicDL5_RxSwift.debug.xcconfig"; path = "Target Support Files/Pods-TopicDL5_RxSwift/Pods-TopicDL5_RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ED84C770309B0F706BA0E56 /* Pods_TopicDL5_RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		471422122643A1EA00C161EE /* Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				471422132643A25B00C161EE /* KingFisherWrapper.swift */,
+			);
+			path = Wrapper;
+			sourceTree = "<group>";
+		};
 		4736F55226417A1200BDD900 = {
 			isa = PBXGroup;
 			children = (
 				4736F55D26417A1200BDD900 /* TopicDL5_RxSwift */,
 				4736F55C26417A1200BDD900 /* Products */,
+				850376BE37A8E45451A2F6D8 /* Pods */,
+				6ECC35E9EE5639DD0E23AD2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,98 @@
 		4736F55D26417A1200BDD900 /* TopicDL5_RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				471422122643A1EA00C161EE /* Wrapper */,
+				47AA3F592642515F00FF53F4 /* Extension */,
+				47AA3F5C2642522A00FF53F4 /* Model */,
+				47AA3F5B2642522600FF53F4 /* View */,
+				47AA3F5A2642521D00FF53F4 /* Controller */,
 				4736F55E26417A1200BDD900 /* AppDelegate.swift */,
 				4736F56026417A1200BDD900 /* SceneDelegate.swift */,
-				4736F56226417A1200BDD900 /* ViewController.swift */,
-				4736F56426417A1200BDD900 /* Main.storyboard */,
-				4736F56726417A1400BDD900 /* Assets.xcassets */,
-				4736F56926417A1400BDD900 /* LaunchScreen.storyboard */,
 				4736F56C26417A1400BDD900 /* Info.plist */,
 			);
 			path = TopicDL5_RxSwift;
+			sourceTree = "<group>";
+		};
+		47AA3F592642515F00FF53F4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				47AA3F6426426A8D00FF53F4 /* String+Extension.swift */,
+				4714221A2643A58B00C161EE /* UITableView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		47AA3F5A2642521D00FF53F4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4736F56226417A1200BDD900 /* PlayListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		47AA3F5B2642522600FF53F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47AA3F5E2642527F00FF53F4 /* PlayList */,
+				4736F56926417A1400BDD900 /* LaunchScreen.storyboard */,
+				4736F56426417A1200BDD900 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47AA3F5C2642522A00FF53F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47AA3F61264260C700FF53F4 /* HTTPRequest */,
+				47AA3F5D2642524A00FF53F4 /* Local */,
+				47AA3F6626426C9500FF53F4 /* KKBoxProviderManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47AA3F5D2642524A00FF53F4 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				4736F56726417A1400BDD900 /* Assets.xcassets */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		47AA3F5E2642527F00FF53F4 /* PlayList */ = {
+			isa = PBXGroup;
+			children = (
+				4714220E264398D600C161EE /* PlayListTableViewCell.swift */,
+				47142210264398E400C161EE /* PlayListTableViewCell.xib */,
+				47AA3F5F264252A200FF53F4 /* PlayListView.swift */,
+				471422162643A44300C161EE /* PlayListTableViewHeader.swift */,
+				471422182643A46300C161EE /* PlayListTableViewHeader.xib */,
+			);
+			path = PlayList;
+			sourceTree = "<group>";
+		};
+		47AA3F61264260C700FF53F4 /* HTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				47AA3F62264260E500FF53F4 /* Object.swift */,
+			);
+			path = HTTPRequest;
+			sourceTree = "<group>";
+		};
+		6ECC35E9EE5639DD0E23AD2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C4214819A583DA4F202F715 /* Pods_TopicDL5_RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		850376BE37A8E45451A2F6D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C0F16359E99AEB8492000BA /* Pods-TopicDL5_RxSwift.debug.xcconfig */,
+				294A43117331267FF64476C7 /* Pods-TopicDL5_RxSwift.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4736F56F26417A1400BDD900 /* Build configuration list for PBXNativeTarget "TopicDL5_RxSwift" */;
 			buildPhases = (
+				26A4B4996D76515E7DE433AB /* [CP] Check Pods Manifest.lock */,
 				4736F55726417A1200BDD900 /* Sources */,
 				4736F55826417A1200BDD900 /* Frameworks */,
 				4736F55926417A1200BDD900 /* Resources */,
+				418D6A71AE22167F7999AE57 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,20 +246,72 @@
 			files = (
 				4736F56B26417A1400BDD900 /* LaunchScreen.storyboard in Resources */,
 				4736F56826417A1400BDD900 /* Assets.xcassets in Resources */,
+				471422192643A46300C161EE /* PlayListTableViewHeader.xib in Resources */,
 				4736F56626417A1200BDD900 /* Main.storyboard in Resources */,
+				47142211264398E400C161EE /* PlayListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26A4B4996D76515E7DE433AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TopicDL5_RxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		418D6A71AE22167F7999AE57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopicDL5_RxSwift/Pods-TopicDL5_RxSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopicDL5_RxSwift/Pods-TopicDL5_RxSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TopicDL5_RxSwift/Pods-TopicDL5_RxSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4736F55726417A1200BDD900 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4736F56326417A1200BDD900 /* ViewController.swift in Sources */,
+				47AA3F6726426C9500FF53F4 /* KKBoxProviderManager.swift in Sources */,
+				47AA3F63264260E500FF53F4 /* Object.swift in Sources */,
+				471422172643A44300C161EE /* PlayListTableViewHeader.swift in Sources */,
+				4736F56326417A1200BDD900 /* PlayListViewController.swift in Sources */,
+				471422142643A25B00C161EE /* KingFisherWrapper.swift in Sources */,
+				4714220F264398D600C161EE /* PlayListTableViewCell.swift in Sources */,
 				4736F55F26417A1200BDD900 /* AppDelegate.swift in Sources */,
+				47AA3F60264252A200FF53F4 /* PlayListView.swift in Sources */,
+				47AA3F6526426A8D00FF53F4 /* String+Extension.swift in Sources */,
 				4736F56126417A1200BDD900 /* SceneDelegate.swift in Sources */,
+				4714221B2643A58B00C161EE /* UITableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +455,7 @@
 		};
 		4736F57026417A1400BDD900 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C0F16359E99AEB8492000BA /* Pods-TopicDL5_RxSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +475,7 @@
 		};
 		4736F57126417A1400BDD900 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 294A43117331267FF64476C7 /* Pods-TopicDL5_RxSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="99" id="etI-Xt-yOC" customClass="PlayListTableViewCell" customModule="TopicDL5_RxSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="99"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="etI-Xt-yOC" id="dbi-jv-QU7">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yWm-BN-pNE">
+                        <rect key="frame" x="20" y="10" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="hm5-Sp-ErL"/>
+                            <constraint firstAttribute="width" secondItem="yWm-BN-pNE" secondAttribute="height" multiplier="1:1" id="ifO-ju-PBC"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwz-51-q8M">
+                        <rect key="frame" x="120" y="39.5" width="235" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2T-uU-Je9">
+                        <rect key="frame" x="375" y="40" width="19" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="s2T-uU-Je9" secondAttribute="height" multiplier="21:22" id="HpF-CQ-ozu"/>
+                            <constraint firstAttribute="height" constant="20" id="UN6-5L-UBN"/>
+                        </constraints>
+                        <color key="tintColor" systemColor="systemPinkColor"/>
+                        <state key="normal" image="heart" catalog="system"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="s2T-uU-Je9" firstAttribute="leading" secondItem="nwz-51-q8M" secondAttribute="trailing" constant="20" id="3s2-Bn-xiC"/>
+                    <constraint firstItem="yWm-BN-pNE" firstAttribute="top" secondItem="dbi-jv-QU7" secondAttribute="top" constant="10" id="95E-Lk-O0w"/>
+                    <constraint firstAttribute="trailing" secondItem="s2T-uU-Je9" secondAttribute="trailing" constant="20" id="Cjv-hM-Mqa"/>
+                    <constraint firstItem="yWm-BN-pNE" firstAttribute="leading" secondItem="dbi-jv-QU7" secondAttribute="leading" constant="20" id="Cqg-Hb-qSR"/>
+                    <constraint firstItem="s2T-uU-Je9" firstAttribute="centerY" secondItem="yWm-BN-pNE" secondAttribute="centerY" id="PYU-Io-1E3"/>
+                    <constraint firstItem="nwz-51-q8M" firstAttribute="leading" secondItem="yWm-BN-pNE" secondAttribute="trailing" constant="20" id="X2k-YQ-kDF"/>
+                    <constraint firstAttribute="bottom" secondItem="yWm-BN-pNE" secondAttribute="bottom" constant="10" id="Ykb-du-AGd"/>
+                    <constraint firstItem="nwz-51-q8M" firstAttribute="centerY" secondItem="yWm-BN-pNE" secondAttribute="centerY" id="jnv-Ve-EqJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="favoriteButton" destination="s2T-uU-Je9" id="gIa-w4-BCJ"/>
+                <outlet property="songImage" destination="yWm-BN-pNE" id="lnY-wz-mkt"/>
+                <outlet property="songNameLabel" destination="nwz-51-q8M" id="AbP-Os-BqF"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="96.09375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
