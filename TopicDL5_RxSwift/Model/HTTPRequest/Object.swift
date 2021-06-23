@@ -58,8 +58,8 @@ enum KKBox {
         var method: Moya.Method { return .get }
 
         var task: Task { return .requestParameters(parameters: ["territory": "TW", "limit": limit, "offset": offset], encoding: URLEncoding.default) }
-        
-        var headers: [String : String] { return ["Authorization": token] }
+
+        var headers: [String : String]? { return ["Authorization": token] }
         
         var playListId: String = "DZrC8m29ciOFY2JAm3"
         
